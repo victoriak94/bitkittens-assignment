@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 
   const summonKittiesButton = document.querySelector('button.summon-cats');
-  const catBoxes = document.querySelectorAll("div.cat-box");
+  const catBoxes = document.querySelectorAll('.cat-box');
 
   summonKittiesButton.addEventListener('click', () => {
     console.log('Summon all the cats!')
